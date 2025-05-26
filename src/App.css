@@ -226,3 +226,15 @@ textarea {
 .back-button:hover {
   background-color: #5a6268;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .form-container {
+    width: 90vw;
+  }
+  .topic-form {
+    width: 90vw;
+  }
+}
